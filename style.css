@@ -31,6 +31,7 @@ body{
     font-style: normal;
     text-transform: uppercase;
     margin: 0 0 16px 0;
+    width: 100%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -84,6 +85,7 @@ p{
 .meta{
     font-size: 14px;
     font-style: italic;
+    width: 100%;
 }
 
 .quote{
