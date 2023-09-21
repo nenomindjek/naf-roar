@@ -5,6 +5,9 @@ body{
 }
 
 .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 850px;
     min-width: 327px;
     height: auto;
@@ -14,15 +17,18 @@ body{
 
 .img{
     width: 120%;
+    max-width: 100vw;
     height: auto;
     aspect-ratio: 3/2;
     background-color: gray;
-    margin-left: -10%;
     margin-bottom: 16px;
 }
 
 .kicker{
     font-size: 14px;
+    font-weight: 700; 
+    font-style: normal;
+    text-transform: uppercase;
     margin: 0 0 16px 0;
 }
 
@@ -89,4 +95,5 @@ p{
     font-size: 32px;
     font-style: italic;
     text-align: center;
+    margin: 0;
 }
