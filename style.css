@@ -6,12 +6,19 @@ body{
 .container{
     width: 50vw;
     height: auto;
-    padding: 160px,0;
+    margin: auto;
+    padding: 160px 0;
     background-color: gray;
 }
 
-h1{
+.img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3/2;
+}
 
+h1{
+s
 }
 
 h2{
