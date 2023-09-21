@@ -5,10 +5,11 @@ body{
 }
 
 .container{
-    width: 50vw;
+    max-width: 850px;
+    min-width: 327px;
     height: auto;
     margin: auto;
-    padding: 160px 0;
+    padding: 160px 24px;
 }
 
 .img{
