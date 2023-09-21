@@ -77,3 +77,15 @@ p{
     font-style: italic;
     margin: 0 0 16px 0;
 }
+
+.bloackquote{
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+}
+
+.quote{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
