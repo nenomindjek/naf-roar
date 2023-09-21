@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: Questa Sans;
+    color: #1A1A1A;
 }
 
 .container{
@@ -74,7 +75,7 @@ h5{
     margin: 0 0 0 0;
 }
 
-p{
+p, li{
     font-size: 20px;
     font-weight: 300; 
     font-style: normal;
@@ -83,7 +84,11 @@ p{
 }
 
 li{
-    
+    margin-bottom: 8px;
+}
+
+li ::marker {
+    color: #267C4F;
 }
 
 .meta{
