@@ -17,7 +17,8 @@ body{
     height: auto;
     aspect-ratio: 3/2;
     background-color: gray;
-    margin: -10%;
+    margin-left: -10%;
+    margin-bottom: 16px;
 }
 
 .kicker{
@@ -46,7 +47,7 @@ h1{
 
 h2{
     font-size: 40px;
-    margin: 0 0 24px 0;
+    margin: 80px 0 24px 0;
 }
 
 h3{
@@ -75,7 +76,6 @@ p{
 .meta{
     font-size: 14px;
     font-style: italic;
-    margin: 0 0 16px 0;
 }
 
 .bloackquote{
