@@ -1,6 +1,7 @@
 body{ 
     padding: 0;
     margin: 0;
+    font-family: Questa Sans;
 }
 
 .container{
@@ -17,34 +18,51 @@ body{
     background-color: gray;
 }
 
+.kicker{
+    font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: 900; 
+    font-style: normal;
+    line-height: 110%;
+}
+
 h1{
-s
-}
-
-h2{
-
-}
-
-h3{
-
-}
-
-h4{
-
-}
-
-h5{
-
-}
-
-p{
-
+    font-size: 48px;
 }
 
 .ingress{
+    font-size: 26px;
+    font-weight: 300; 
+    font-style: italic;
+    line-height: 150%;
+}
 
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300; 
+    font-style: normal;
+    line-height: 150%;
 }
 
 .meta{
-
+    font-size: 14px;
+    font-style: italic;
 }
