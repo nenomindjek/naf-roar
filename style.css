@@ -3,6 +3,7 @@ body{
     margin: 0;
     font-family: "questa-sans", sans-serif;
     color: #1A1A1A;
+    text-rendering: optimizeLegibility;
 }
 
 .container{
