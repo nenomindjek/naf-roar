@@ -27,7 +27,7 @@ body{
 }
 
 .kicker{
-    font-size: 14px;
+    font-size: clamp(0.75rem, 0.662rem + 0.376vw, 1rem);
     font-weight: 700; 
     font-style: normal;
     text-transform: uppercase;
@@ -44,12 +44,12 @@ h1, h2, h3, h4, h5 {
 }
 
 h1{
-    font-size: 48px;
+    font-size: clamp(3rem, 2.824rem + 0.751vw, 3.5rem);
     margin: 0 0 16px 0;
 }
 
 .ingress{
-    font-size: 26px;
+    font-size: clamp(1.5rem, 1.412rem + 0.376vw, 1.75rem);
     font-weight: 300; 
     font-style: italic;
     line-height: 150%;
@@ -57,28 +57,28 @@ h1{
 }
 
 h2{
-    font-size: 40px;
+    font-size: clamp(2rem, 1.824rem + 0.751vw, 2.5rem);
     margin: 0 0 16px 0;
 }
 
 
 h3{
-    font-size: 32px;
+    font-size: clamp(1.5rem, 1.412rem + 0.376vw, 1.75rem);
     margin: 0 0 8px 0;
 }
 
 h4{
-    font-size: 24px;
+    font-size: clamp(1.25rem, 1.162rem + 0.376vw, 1.5rem);
     margin: 0 0 8px 0;
 }
 
 h5{
-    font-size: 20px;
+    font-size: clamp(1rem, 0.912rem + 0.376vw, 1.25rem);
     margin: 0 0 0 0;
 }
 
 p, li{
-    font-size: 20px;
+    font-size: clamp(1rem, 0.912rem + 0.376vw, 1.25rem);
     font-weight: 300; 
     font-style: normal;
     line-height: 160%;
@@ -110,7 +110,7 @@ li::marker {
 }
 
 .meta{
-    font-size: 14px;
+    font-size: clamp(0.75rem, 0.662rem + 0.376vw, 1rem);
     font-style: italic;
     width: 100%;
 }
@@ -128,7 +128,7 @@ li::marker {
 
 
 .blockquote{
-    font-size: 32px;
+    font-size: clamp(2rem, 1.824rem + 0.751vw, 2.5rem);
     font-style: italic;
     text-align: center;
     margin: 0;
