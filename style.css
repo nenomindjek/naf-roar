@@ -1,152 +1,148 @@
-@media screen and (min-width:375px) and (max-width: 1440px) {
-    
-    html {
-        font-size: 16px;
-    }
+html {
+    font-size: 16px;
+}
 
-    body{ 
-        padding: 0;
-        margin: 0;
-        font-family: "questa-sans", sans-serif;
-        color: #1A1A1A;
-        text-rendering: optimizeLegibility;
-    }
+body{ 
+    padding: 0;
+    margin: 0;
+    font-family: "questa-sans", sans-serif;
+    color: #1A1A1A;
+    text-rendering: optimizeLegibility;
+}
 
-    .container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        max-width: 850px;
-        min-width: 327px;
-        height: auto;
-        margin: auto;
-        padding: 160px 24px;
-    }
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 850px;
+    min-width: 327px;
+    height: auto;
+    margin: auto;
+    padding: 160px 24px;
+}
 
-    .img{
-        width: 120%;
-        max-width: 100vw;
-        min-width: 327px;
-        height: auto;
-        aspect-ratio: 3/2;
-        background-color: lightgrey;
-        margin-bottom: 16px;
-    }
+.img{
+    width: 120%;
+    max-width: 100vw;
+    min-width: 327px;
+    height: auto;
+    aspect-ratio: 3/2;
+    background-color: lightgrey;
+    margin-bottom: 16px;
+}
 
-    .kicker{
-        font-size: clamp(0.75rem, calc(0.662rem + 0.376vw), 1rem);
-        font-weight: 700; 
-        font-style: normal;
-        text-transform: uppercase;
-        letter-spacing: 0.64px;
-        margin: 0 0 16px 0;
-        width: 100%;
-    }
+.kicker{
+    font-size: clamp(0.75rem, calc(0.662rem + 0.376vw), 1rem);
+    font-weight: 700; 
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 0.64px;
+    margin: 0 0 16px 0;
+    width: 100%;
+}
 
-    h1, h2, h3, h4, h5 {
-        font-weight: 900; 
-        font-style: normal;
-        line-height: 110%;
-        width: 100%;
-    }
+h1, h2, h3, h4, h5 {
+    font-weight: 900; 
+    font-style: normal;
+    line-height: 110%;
+    width: 100%;
+}
 
-    h1{
-        font-size: clamp(3rem, calc(2.824rem + 0.751vw), 3.5rem);
-        margin: 0 0 16px 0;
-    }
+h1{
+    font-size: clamp(3rem, calc(2.824rem + 0.751vw), 3.5rem);
+    margin: 0 0 16px 0;
+}
 
-    .ingress{
-        font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
-        font-weight: 300; 
-        font-style: italic;
-        line-height: 150%;
-        margin: 0 0 40px 0;
-    }
+.ingress{
+    font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
+    font-weight: 300; 
+    font-style: italic;
+    line-height: 150%;
+    margin: 0 0 40px 0;
+}
 
-    h2{
-        font-size: clamp(2rem, calc(1.824rem + 0.751vw), 2.5rem);
-        margin: 0 0 16px 0;
-    }
+h2{
+    font-size: clamp(2rem, calc(1.824rem + 0.751vw), 2.5rem);
+    margin: 0 0 16px 0;
+}
 
 
-    h3{
-        font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
-        margin: 0 0 8px 0;
-    }
+h3{
+    font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
+    margin: 0 0 8px 0;
+}
 
-    h4{
-        font-size: clamp(1.25rem, calc(1.162rem + 0.376vw), 1.5rem);
-        margin: 0 0 8px 0;
-    }
+h4{
+    font-size: clamp(1.25rem, calc(1.162rem + 0.376vw), 1.5rem);
+    margin: 0 0 8px 0;
+}
 
-    h5{
-        font-size: clamp(1rem, calc(0.912rem + 0.376vw), 1.25rem);
-        margin: 0 0 0 0;
-    }
+h5{
+    font-size: clamp(1rem, calc(0.912rem + 0.376vw), 1.25rem);
+    margin: 0 0 0 0;
+}
 
-    p, li{
-        font-size: clamp(1rem, calc(0.912rem + 0.376vw), 1.25rem);
-        font-weight: 300; 
-        font-style: normal;
-        line-height: 160%;
-        margin: 0 0 80px 0;
-    }
+p, li{
+    font-size: clamp(1rem, calc(0.912rem + 0.376vw), 1.25rem);
+    font-weight: 300; 
+    font-style: normal;
+    line-height: 160%;
+    margin: 0 0 80px 0;
+}
 
-    p > span{
-        font-weight: 700;
-    }
+p > span{
+    font-weight: 700;
+}
 
-    #mindre-marg{
-        margin-bottom: 24px;
-    }
+#mindre-marg{
+    margin-bottom: 24px;
+}
 
-    ul{
-        margin-block-start: 0;
-        margin-block-end: 0;
-        padding-inline-start: 16px;
-        margin: 0 0 24px 0;
-    }
+ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 16px;
+    margin: 0 0 24px 0;
+}
 
-    li{
-        margin-bottom: 8px;
-        padding-left: 16px;
-    }
+li{
+    margin-bottom: 8px;
+    padding-left: 16px;
+}
 
-    li::marker {
-        color: #267C4F;
-    }
+li::marker {
+    color: #267C4F;
+}
 
-    .meta{
-        font-size: clamp(0.75rem, calc(0.662rem + 0.376vw), 1rem);
-        font-style: italic;
-        width: 100%;
-    }
+.meta{
+    font-size: clamp(0.75rem, calc(0.662rem + 0.376vw), 1rem);
+    font-style: italic;
+    width: 100%;
+}
 
-    .meta > span{
-        font-weight: 700;
-    }
+.meta > span{
+    font-weight: 700;
+}
 
-    .quote{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 40px;
-    }
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
 
 
-    .blockquote{
-        font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
-        font-weight: 300;
-        font-style: italic;
-        text-align: center;
-        margin: 0;
-    }
+.blockquote{
+    font-size: clamp(1.5rem, calc(1.412rem + 0.376vw), 1.75rem);
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
 
-    .gul-strek{
-        width: 100px;
-        height: 4px;
-        margin-bottom: 40px;
-        background-color: #FFDB16;
-    }
-
+.gul-strek{
+    width: 100px;
+    height: 4px;
+    margin-bottom: 40px;
+    background-color: #FFDB16;
 }
