@@ -129,6 +129,7 @@ li::marker {
 
 .blockquote{
     font-size: clamp(1.5rem, 1.412rem + 0.376vw, 1.75rem);
+    font-weight: 300;
     font-style: italic;
     text-align: center;
     margin: 0;
