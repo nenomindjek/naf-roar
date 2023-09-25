@@ -1,7 +1,7 @@
 body{ 
     padding: 0;
     margin: 0;
-    font-family: Questa Sans;
+    font-family: "questa-sans", sans-serif;
     color: #1A1A1A;
 }
 
@@ -79,7 +79,7 @@ h5{
 
 p, li{
     font-size: clamp(1rem, 0.912rem + 0.376vw, 1.25rem);
-    font-weight: 300; 
+    font-weight: 400; 
     font-style: normal;
     line-height: 160%;
     margin: 0 0 80px 0;
@@ -128,7 +128,7 @@ li::marker {
 
 
 .blockquote{
-    font-size: clamp(2rem, 1.824rem + 0.751vw, 2.5rem);
+    font-size: clamp(1.5rem, 1.412rem + 0.376vw, 1.75rem);
     font-style: italic;
     text-align: center;
     margin: 0;
